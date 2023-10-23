@@ -21,11 +21,11 @@ body {
   position: fixed;
   width: 100%;
   height: 65px;
-  background: linear-gradient(to top, #fff, #178b9b);
+  background: linear-gradient(to top, #190435, #000000);
 }
 
 .logo {
-  height: 50%;
+  height: 90%;
 }
 
 .navbar,
@@ -48,25 +48,28 @@ body {
 }
 
 /* ==================== MAIN ==================== */
-
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  background: linear-gradient(to top, #000000, #190435, #000000);
   /* height: 100vh; */
   /* background: linear-gradient(to bottom, #fff, #178b9b); */
 }
 
+/* ==================== HERO ==================== */
 #hero {
   margin-top: 65px;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   /* width: 100vw; */
-  /* height: 600px; */
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../Img/FondoEjemplo.webp");
+  background-position: top;
   /* border: 1px solid #ff0000; */
 }
 
@@ -77,6 +80,7 @@ main {
   font-size: 42px;
   width: 100%;
   margin-bottom: 20px;
+  color: white;
   /* border: 1px solid #b3ff03; */
 }
 
@@ -87,6 +91,7 @@ main {
   text-align: center;
   margin: 30px 400px 20px 400px;
   width: 60%;
+  color: white;
   /* border: 1px solid #b3ff03; */
 }
 
@@ -99,8 +104,9 @@ main {
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
-  color: white;
-  background-color: #000000;
+  color: #000000;
+  background-color: white;
+
   font-weight: bold;
 }
 
@@ -112,33 +118,107 @@ main {
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
-  color: #000000;
-  background-color: white;
+  color: white;
+  background-color: #000000;
 }
 
-.hero-info img {
+/* .hero-info img {
   opacity: 0.3;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+} */
+
+/* ==================== ABOUT ==================== */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 40px;
+  /* border: 4px solid #b3ff03; */
 }
+
+.about-info h2,
+.about-info p {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+/* ==================== CARDS ==================== */
+#cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+  height: 100%;
+  /* border: 4px solid #b3ff03; */
+}
+
+.cards-conteiner {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  margin-top: 40px;
+  gap: 100px;
+  /* border: 4px solid #b3ff03; */
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  border-radius: 10px;
+  border: 1px solid #fff;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.cards-info {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 50px;
+  /* border: 4px solid #b3ff03; */
+}
+
+.card-info-conteiner img {
+  margin-right: 30px;
+}
+
+.card-info-1,
+.card-info-2,
+.card-info-3 {
+  display: inline-block;
+  width: 50%;
+  /* border: 4px solid #b3ff03; */
+}
+
+.card-info-1 p,
+.card-info-2 p,
+.card-info-3 p {
+  width: 50%;
+  margin-top: 40px;
+}
+
 /* ==================== FOOTER ==================== */
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid #000000; */
   height: 90px;
   margin-top: 60vh;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 30px;
-  position: fixed;
-  width: 100%;
-  height: 70px; */
-  background: linear-gradient(to bottom, #fff, #178b9b);
+  background: linear-gradient(to bottom, #190435, #000000);
+}
+
+footer h2,
+footer p {
+  color: white;
 }
