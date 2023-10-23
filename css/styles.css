@@ -207,6 +207,41 @@ main {
   margin-top: 40px;
 }
 
+/* ==================== CONTACTO ==================== */
+#contacto {
+  width: 80%;
+}
+#contacto h2 {
+  color: white;
+}
+.contacto-container {
+  border: 4px solid #b3ff03;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.contacto-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+.contacto-form label {
+  color: white;
+}
+
+.contacto-redes {
+  border: 4px solid #b3ff03;
+  width: 30%;
+}
+.contacto-redes h3,li{
+  color: white;
+}
+.redes-sociales{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
 /* ==================== FOOTER ==================== */
 footer {
   display: flex;
