@@ -207,6 +207,50 @@ main {
   margin-top: 40px;
 }
 
+/* ==================== CONTACTO ==================== */
+#contacto {
+  width: 80%;
+}
+#contacto h2 {
+  color: white;
+}
+.contacto-container {
+  border: 4px solid #b3ff03;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.contacto-form {
+  border: 4px solid #f0e54b;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+.contacto-form label {
+  color: white;
+}
+
+.contacto-redes {
+  border: 4px solid #03fff2;
+  width: 30%;
+}
+.contacto-redes h3{
+  color: white;
+}
+.contacto-redes li{
+  color: white;
+}
+.redes-sociales li{
+  color: white;
+  display: inline-block;
+  align-items: start;
+}
+.redes-sociales{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
 /* ==================== FOOTER ==================== */
 footer {
   display: flex;
