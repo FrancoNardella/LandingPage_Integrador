@@ -235,18 +235,18 @@ main {
   /* border: 4px solid #03fff2; */
   width: 30%;
 }
-.contacto-redes h3{
+.contacto-redes h3 {
   color: white;
 }
-.contacto-redes li{
+.contacto-redes li {
   color: white;
 }
-.redes-sociales li{
+.redes-sociales li {
   color: white;
   display: inline-block;
   align-items: start;
 }
-.redes-sociales{
+.redes-sociales {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -259,7 +259,7 @@ footer {
   align-items: center;
   height: 90px;
   /* margin-top: 60vh; */
-  background: linear-gradient(to bottom, #190435, #000000);
+  background: linear-gradient(to top, #190435, #000000);
 }
 
 footer h2,
