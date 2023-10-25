@@ -249,10 +249,11 @@ main {
 
 .contacto-form input {
   height: 30px;
+  border-radius: 8px;
 }
 
 .bt-enviar {
-  border-radius: 20px;
+  border-radius: 8px;
   width: 100px;
   margin-left: 35%;
   margin-top: 10px;
