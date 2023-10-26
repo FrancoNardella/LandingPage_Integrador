@@ -10,8 +10,8 @@ body {
 .login-container {
   width: 400px;
   height: 450px;
-  /* background-color: #3908468a; */
   background-color: #ffffff13;
+  filter: drop-shadow(1px 1px 1px #6b6b6b);
   color: white;
   padding: 20px;
   margin: 220px auto;
@@ -26,15 +26,22 @@ body {
 .login-container h2 {
   text-align: center;
   margin-bottom: 50px;
+  background: linear-gradient(to bottom, #fff, #6b13df);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 input[type="text"],
 input[type="password"] {
   width: 100%;
   padding: 8px;
-  margin: 0 0px 15px 0;
+  margin: 10px 0px 15px 0;
   box-sizing: border-box;
   border-radius: 8px;
+  background-color: #ffffff1c;
+  color: #fff;
+  border: none;
 }
 
 .button-iniciar {
@@ -73,5 +80,6 @@ input[type="password"] {
 .volver {
   color: #fff;
   text-decoration: none;
-  margin-left: 140px;
+  margin-left: 150px;
+  font-size: 14px;
 }

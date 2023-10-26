@@ -63,8 +63,6 @@ main {
 /* ==================== HERO ==================== */
 #hero {
   margin-top: 65px;
-  /* padding: 20px 0; */
-  /* width: 100vw; */
   height: 800px;
   display: flex;
   justify-content: center;
@@ -83,6 +81,7 @@ main {
   width: 100%;
   margin-bottom: 20px;
   color: white;
+  filter: drop-shadow(1px 1px 5px #b40a0a);
   /* border: 1px solid #b3ff03; */
 }
 
@@ -91,10 +90,12 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 30px 400px 20px 400px;
-  width: 70%;
+  padding: 0 90px 0 90px;
+  margin: 8px 0 0 450px;
+  width: 50%;
   font-size: 18px;
   font-weight: bold;
+  filter: drop-shadow(1px 1px 5px #b40a0a);
   color: white;
   /* border: 1px solid #b3ff03; */
 }
@@ -115,13 +116,6 @@ main {
 }
 
 .hero-info button:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 40px;
-  border-radius: 20px;
-  cursor: pointer;
   color: white;
   background-color: #000000;
 }
@@ -144,33 +138,50 @@ main {
   /* border: 4px solid #b3ff03; */
 }
 
-.about-info h2{
+.about-info h2 {
   text-align: center;
-  color: #fff;
-  padding-bottom: 50px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  background: linear-gradient(to bottom, #fff, #6b13df);
+  filter: drop-shadow(1px 1px 5px #6b6b6b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .about-info p {
   color: #fff;
   width: 81%;
   margin-left: 10%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   font-size: 17px;
+  text-align: center;
+  /* border: 4px solid #b3ff03; */
 }
 
-.about-info span{
+.about-info span {
   font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+  background: linear-gradient(to bottom, #fff, #6b13df);
+  filter: drop-shadow(1px 1px 1px #6b6b6b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
-.about-info li{
+.about-info li {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* text-align: center; */
   color: #fff;
   margin-left: 10%;
   margin-top: 20px;
   width: 83%;
+  /* border: 4px solid #b3ff03; */
 }
+
 /* ==================== CARDS ==================== */
 #cards {
   display: flex;
@@ -183,6 +194,14 @@ main {
   width: 100%;
   height: 100%;
   /* border: 4px solid #b3ff03; */
+}
+
+#cards h2 {
+  background: linear-gradient(to bottom, #fff, #6b13df);
+  filter: drop-shadow(1px 1px 5px #6b6b6b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .cards-conteiner {
@@ -215,6 +234,7 @@ main {
 
 .card-info-conteiner {
   /* border: 4px solid #ff7403; */
+  /* filter: drop-shadow(1px 1px 2px #ffffff73); */
   background: #302f2f5d;
   justify-content: center;
   align-items: center;
@@ -231,37 +251,38 @@ main {
   margin: 28px 50px 0px 32px;
 }
 
-.img-mortalk{
+.img-mortalk {
   height: 135px;
 }
 
 .card-info-1 {
-  /* border: 4px solid #b3ff03; */
+  border: 4px solid #b3ff03;
   display: inline-block;
   width: 60%;
   max-width: 600px;
 }
 
-.card-info-2{
+.card-info-2 {
   display: inline-block;
   width: 50%;
   max-width: 600px;
 }
 
-.card-info-3{
+.card-info-3 {
   display: inline-block;
   width: 60%;
   max-width: 600px;
 }
 
-.card-2 h3{
+.card-2 h3 {
   margin-top: -5px;
 }
 .card-info-1 p,
 .card-info-2 p,
 .card-info-3 p {
-  width: 80%;
+  width: 100%;
   margin-top: 25px;
+  border: 4px solid #b3ff03;
 }
 
 /* ==================== CONTACTO ==================== */
@@ -270,10 +291,14 @@ main {
   margin-bottom: 30px;
 }
 #contacto h2 {
+  background: linear-gradient(to bottom, #fff, #6b13df);
+  filter: drop-shadow(1px 1px 5px #6b6b6b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
   margin: 50px 0;
 }
 .contacto-container {
@@ -289,13 +314,28 @@ main {
   flex-direction: column;
   width: 30%;
 }
+
+input[type="text"],
+input[type="email"] {
+  background-color: #ffffff1c;
+  color: #fff;
+  border: none;
+}
+
 .contacto-form label {
   color: white;
-  margin-top: 5px;
+  margin: 10px 0 5px 0;
 }
 
 .contacto-form input {
   height: 30px;
+  border-radius: 8px;
+}
+
+.contacto-form textarea {
+  background-color: #ffffff1c;
+  color: #fff;
+  border: none;
   border-radius: 8px;
 }
 
@@ -304,8 +344,16 @@ main {
   width: 100px;
   margin-left: 35%;
   margin-top: 10px;
+  background-color: #ffffff1c;
+  color: #fff;
+  border: none;
   cursor: pointer;
   /* border: 4px solid #03fff2; */
+}
+
+.bt-enviar:hover {
+  color: #000000;
+  background-color: #fff;
 }
 
 .contacto-redes {
@@ -322,8 +370,19 @@ main {
 .contacto-redes li {
   color: white;
   margin-top: 10px;
-  padding: 0 10px 0 10px;
   list-style-type: none;
+  /* border: 4px solid #03fff2; */
+}
+
+.contacto-redes span {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.contacto-redes img {
+  height: 30px;
+  width: 30px;
   /* border: 4px solid #03fff2; */
 }
 
@@ -345,6 +404,7 @@ main {
   height: 50px;
   width: 50px;
   margin-top: 10px;
+  margin-right: 10px;
 }
 
 /* ==================== FOOTER ==================== */
