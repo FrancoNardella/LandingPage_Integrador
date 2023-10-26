@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style-type: none;
+  /* list-style-type: none; */
   text-decoration: none;
   font-family: "Ubuntu", sans-serif;
 }
@@ -92,7 +92,9 @@ main {
   align-items: center;
   text-align: center;
   margin: 30px 400px 20px 400px;
-  width: 60%;
+  width: 70%;
+  font-size: 18px;
+  font-weight: bold;
   color: white;
   /* border: 1px solid #b3ff03; */
 }
@@ -142,13 +144,33 @@ main {
   /* border: 4px solid #b3ff03; */
 }
 
-.about-info h2,
-.about-info p {
+.about-info h2{
   text-align: center;
   color: #fff;
   padding-bottom: 50px;
 }
 
+.about-info p {
+  color: #fff;
+  width: 81%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.about-info span{
+  font-weight: bold;
+}
+
+.about-info li{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  margin-left: 10%;
+  margin-top: 20px;
+  width: 83%;
+}
 /* ==================== CARDS ==================== */
 #cards {
   display: flex;
@@ -192,31 +214,54 @@ main {
 }
 
 .card-info-conteiner {
+  /* border: 4px solid #ff7403; */
+  background: #302f2f5d;
   justify-content: center;
   align-items: center;
-  margin-left: 10%;
-  /* border: 4px solid #fff; */
+  margin-left: 21%;
   width: 80%;
+  height: 200px;
+  max-width: 900px;
+  border-radius: 8px;
 }
 
 .card-info-conteiner img {
-  margin-right: 30px;
-  /* border: 4px solid #fff; */
+  max-width: 250px;
+  max-height: 250px;
+  margin: 28px 50px 0px 32px;
 }
 
-.card-info-1,
-.card-info-2,
-.card-info-3 {
-  display: inline-block;
-  width: 86%;
+.img-mortalk{
+  height: 135px;
+}
+
+.card-info-1 {
   /* border: 4px solid #b3ff03; */
+  display: inline-block;
+  width: 60%;
+  max-width: 600px;
 }
 
+.card-info-2{
+  display: inline-block;
+  width: 50%;
+  max-width: 600px;
+}
+
+.card-info-3{
+  display: inline-block;
+  width: 60%;
+  max-width: 600px;
+}
+
+.card-2 h3{
+  margin-top: -5px;
+}
 .card-info-1 p,
 .card-info-2 p,
 .card-info-3 p {
-  width: 50%;
-  margin-top: 40px;
+  width: 80%;
+  margin-top: 25px;
 }
 
 /* ==================== CONTACTO ==================== */
@@ -278,6 +323,7 @@ main {
   color: white;
   margin-top: 10px;
   padding: 0 10px 0 10px;
+  list-style-type: none;
   /* border: 4px solid #03fff2; */
 }
 
