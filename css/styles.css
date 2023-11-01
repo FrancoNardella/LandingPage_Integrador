@@ -219,22 +219,25 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  gap: 50px;
-  /* border: 4px solid #b3ff03; */
+  gap: 20px;
+  margin: 0 auto;
+  border: 4px solid #b3ff03;
 }
 
 .card-info-conteiner {
-  /* border: 4px solid #ff7403; */
+  border: 4px solid #ff7403;
   background: #302f2f5d;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 45%;
+  width: fit-content;
   height: 200px;
   max-width: 900px;
   border-radius: 8px;
 }
 
 .card-info-conteiner img {
+  /* border: 4px solid #ff7403; */
   max-width: 250px;
   max-height: 250px;
   margin: 28px 50px 0px 32px;
@@ -257,59 +260,71 @@ main {
 }
 
 .card-info-1 {
-  /* border: 4px solid #b3ff03; */
+  border: 4px solid #b3ff03;
   display: inline-block;
-  width: 50%;
+  width: 60%;
   max-width: 600px;
 }
 
 .card-info-2 {
-  /* border: 4px solid #b3ff03; */
+  border: 4px solid #b3ff03;
   display: inline-block;
-  width: 50%;
+  width: 60%;
   max-width: 600px;
 }
 
 .card-info-3 {
   display: inline-block;
-  width: 50%;
+  width: 60%;
   max-width: 600px;
 }
 
 .card-info-4 {
   display: inline-block;
-  width: 50%;
+  width: 60%;
   max-width: 600px;
 }
 
 .card-info-5 {
   display: inline-block;
-  width: 50%;
+  width: 60%;
   max-width: 600px;
 }
 
 .card-info-6 {
   display: inline-block;
-  width: 50%;
+  width: 60%;
   max-width: 600px;
 }
 
 .card-2 h3 {
   margin-top: -5px;
 }
+
 .card-info-1 p,
 .card-info-2 p,
 .card-info-3 p,
 .card-info-4 p,
 .card-info-5 p,
 .card-info-6 p {
-  width: 100%;
-  margin-top: 25px;
+  width: 90%;
+  margin: 10px auto;
+  /* border: 4px solid #b3ff03; */
+}
+
+.card-info-1 h3,
+.card-info-2 h3,
+.card-info-3 h3,
+.card-info-4 h3,
+.card-info-5 h3,
+.card-info-6 h3 {
+  width: 90%;
+  margin: 10px auto;
   /* border: 4px solid #b3ff03; */
 }
 
 /* ==================== CARDS ==================== */
-#cards {
+/* #cards {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -319,66 +334,58 @@ main {
   margin-bottom: 60px;
   width: 100%;
   height: 100%;
-  /* border: 4px solid #b3ff03; */
-}
+} */
 
-#cards h2 {
+/* #cards h2 {
   background: linear-gradient(to top, #fff, #6b13df);
   filter: drop-shadow(1px 1px 1px #000000);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-}
+} */
 
-.cards-conteiner {
+/* .cards-conteiner {
   display: flex;
   justify-content: center;
   gap: 10px;
   color: #fff;
   margin: 40px 0;
   gap: 100px;
-  /* border: 4px solid #b3ff03; */
-}
+} */
 
-.card-1,
+/* .card-1,
 .card-2,
 .card-3 {
   border-radius: 25px;
-  /* border: 1px solid #fff; */
   margin-top: 40px;
   margin-bottom: 50px;
-}
+} */
 
-.cards-info {
+/*.cards-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* flex-direction: column; */
-  /* align-items: center; */
   width: 100%;
   gap: 50px;
-  /* border: 4px solid #b3ff03; */
-}
+} */
 
-.card-info-conteiner {
-  /* border: 4px solid #ff7403; */
+/* .card-info-conteiner {
   background: #302f2f5d;
   justify-content: center;
   align-items: center;
-  /* margin-left: 21%; */
   width: 45%;
   height: 200px;
   max-width: 900px;
   border-radius: 8px;
-}
+} */
 
-.card-info-conteiner img {
+/* .card-info-conteiner img {
   max-width: 250px;
   max-height: 250px;
   margin: 28px 50px 0px 32px;
-}
+} */
 
-.img-mortalk {
+/* .img-mortalk {
   height: 135px;
 }
 
@@ -392,17 +399,15 @@ main {
 
 .img-baldur {
   height: 135px;
-}
+} */
 
-.card-info-1 {
-  /* border: 4px solid #b3ff03; */
+/* .card-info-1 {
   display: inline-block;
   width: 50%;
   max-width: 600px;
 }
 
 .card-info-2 {
-  /* border: 4px solid #b3ff03; */
   display: inline-block;
   width: 50%;
   max-width: 600px;
@@ -430,12 +435,13 @@ main {
   display: inline-block;
   width: 50%;
   max-width: 600px;
-}
+} */
 
-.card-2 h3 {
+/* .card-2 h3 {
   margin-top: -5px;
-}
-.card-info-1 p,
+} */
+
+/* .card-info-1 p,
 .card-info-2 p,
 .card-info-3 p,
 .card-info-4 p,
@@ -443,8 +449,7 @@ main {
 .card-info-6 p {
   width: 100%;
   margin-top: 25px;
-  /* border: 4px solid #b3ff03; */
-}
+} */
 
 /* ==================== CONTACTO ==================== */
 #contacto {
