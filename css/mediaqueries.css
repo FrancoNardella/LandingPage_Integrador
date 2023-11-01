@@ -12,6 +12,10 @@
     width: auto;
     /* border: 1px solid #ff0000; */
   }
+
+  /* #cards {
+    display: none;
+  } */
 }
 
 @media (max-width: 1300px) {
@@ -55,6 +59,35 @@
     padding: 30px;
     margin: 96px auto;
     border-radius: 10px;
+  }
+
+  .contacto-container {
+    /* border: 4px solid #b3ff03; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+  .contacto-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 78%;
+  }
+
+  .contacto-redes {
+    width: 25%;
+    margin: 80px auto 10px auto;
+  }
+}
+
+@media (max-width: 950px) {
+  .contacto-redes {
+    width: 30%;
+    margin: 80px auto 10px auto;
   }
 }
 
@@ -202,6 +235,28 @@
     width: 450px;
     height: 250px;
   }
+
+  .contacto-container {
+    /* border: 4px solid #b3ff03; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+  .contacto-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .contacto-redes {
+    width: 35%;
+    margin: 80px auto 10px auto;
+  }
 }
 
 @media (max-width: 800px) {
@@ -265,6 +320,28 @@
   .img-baldur {
     width: 450px;
     height: 250px;
+  }
+
+  .contacto-container {
+    /* border: 4px solid #b3ff03; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+  .contacto-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .contacto-redes {
+    width: 35%;
+    margin: 80px auto 10px auto;
   }
 }
 
@@ -361,6 +438,11 @@
     width: 450px;
     height: 250px;
   }
+
+  .contacto-redes {
+    width: 41%;
+    margin: 80px auto 10px auto;
+  }
 }
 
 @media (max-width: 600px) {
@@ -439,6 +521,11 @@
     width: 450px;
     height: 250px;
   }
+
+  .contacto-redes {
+    width: 50%;
+    margin: 80px auto 10px auto;
+  }
 }
 
 @media (max-width: 500px) {
@@ -516,5 +603,10 @@
   .img-baldur {
     width: 450px;
     height: 250px;
+  }
+
+  .contacto-redes {
+    width: 60%;
+    margin: 80px auto 10px auto;
   }
 }
